@@ -1,0 +1,24 @@
+{
+  "name": "tmpl.js",
+  "main": "tmpl.js",
+  "version": "0.1.3",
+  "author": {
+    "name": "Felix Exter",
+    "email": "felixexter@ya.ru",
+    "url": "https://github.com/felixexter"
+  },
+  "description": "The easiest string templating.",
+  "keywords": [
+    "tmpl",
+    "templates",
+    "replace",
+    "string"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/*",
+    "!tmpl.min.js",
+    "!tmpl.js"
+  ],
+  "homepage": "https://github.com/felixexter/tmpl.js"
+}
