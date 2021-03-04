@@ -5,7 +5,7 @@
   "description": "The easiest string templating.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixexter/tmpl"
+    "url": "https://github.com/unmaintain/tmpl.js"
   },
   "keywords": [
     "tmpl",
@@ -14,15 +14,15 @@
     "string"
   ],
   "author": {
-    "name": "Felix Exter",
-    "email": "felixexter@ya.ru",
-    "url": "https://github.com/felixexter"
+    "name": "unmaintain",
+    "email": "unmaintain@gmail.com",
+    "url": "https://github.com/unmaintain"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felixexter/tmpl.js/issues"
+    "url": "https://github.com/unmaintain/tmpl.js/issues"
   },
-  "homepage": "https://github.com/felixexter/tmpl.js",
+  "homepage": "https://github.com/unmaintain/tmpl.js",
   "dependencies": {
     "gulp": "^3.8.5",
     "gulp-uglify": "^0.3.1",
