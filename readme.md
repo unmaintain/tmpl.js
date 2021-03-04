@@ -1,20 +1,20 @@
 # tmpl.js
 
-The easiest string templating.
+The easiest string templating
 
 ## Features
 
-- Easy data replacement in the string.
-- No dependency on jQuery.
-- Compatible with all browsers.
-- Nanoweight helper.
+- Easy data replacement in the string
+- No dependency
+- Compatible with all browsers
+- Nanoweight helper
 
 ## Use
 
-Use keys in double brackets to replace your data.
+Use keys in double brackets to replace your data
 
 ### Simple example
-```javascript
+```js
 'These {{something}} are so {{adjective}}!'.tmpl({
     something: 'diamonds',
     adjective: 'shiny'
@@ -23,23 +23,22 @@ Use keys in double brackets to replace your data.
 // These diamonds are so shiny!
 ```
 
-### With jQuery.ajax
-```javascript
+### With fetch
+```js
+// define a project template here
+const projectTmpl = '...'
 
-var myTmpl = '...'; // Some template
+// fetch a project data
+const data = await (await fetch('path/to/data.json')).json()
 
-$.ajax({
-    url: 'path/to/data.json',
-    success: function (data) {
-        var tmpl = myTmpl.tmpl(data);
-        $('#portfolio').append(tmpl);
-    },
-    error: function (data) {
-        // Error
-    }
-})
+// apply a project data to the template
+const project = projectTmpl.tmpl(data);
+
+// and append it
+const projects = document.getElementById('projects')
+projects.append(project)
 ```
 
 ## License
 
-Released under the MIT license.
+Released under the MIT license
