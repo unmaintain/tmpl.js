@@ -26,7 +26,10 @@ Use keys in double brackets to replace your data
 ### With fetch
 ```js
 // define a project template here
-const projectTmpl = '...'
+const projectTmpl = `
+<h2>{{name}}</h2>
+<p>{{description}}</p>
+`
 
 // fetch a project data
 const data = await (await fetch('path/to/data.json')).json()
