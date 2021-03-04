@@ -17,8 +17,8 @@ Use keys in double brackets to replace your data
 ```js
 'These {{something}} are so {{adjective}}!'.tmpl({
     something: 'diamonds',
-    adjective: 'shiny'
-});
+    adjective: 'shiny',
+})
 
 // These diamonds are so shiny!
 ```
@@ -35,7 +35,7 @@ const projectTmpl = `
 const data = await (await fetch('path/to/data.json')).json()
 
 // apply a project data to the template
-const project = projectTmpl.tmpl(data);
+const project = projectTmpl.tmpl(data)
 
 // and append it
 const projects = document.getElementById('projects')
